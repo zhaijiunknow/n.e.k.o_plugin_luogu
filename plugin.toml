@@ -9,7 +9,7 @@ version = "0.1.0"
 entry = "plugin.plugins.luogu:LuoguPlugin"
 
 [plugin.author]
-name = "N.E.K.O Team"
+name = "Zhaijiu"
 
 [plugin.sdk]
 recommended = ">=0.1.0,<0.2.0"
