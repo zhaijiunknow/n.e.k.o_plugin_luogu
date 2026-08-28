@@ -11,7 +11,6 @@ import json
 import urllib.parse
 
 import pytest
-
 from plugin.plugins.luogu import _parsing as p
 
 pytestmark = pytest.mark.plugin_unit

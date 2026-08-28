@@ -8,7 +8,6 @@ day-offering stability contract.
 from __future__ import annotations
 
 import pytest
-
 from plugin.plugins.luogu import _growth as g
 from plugin.plugins.luogu._models import ProblemMeta, SubmissionRecord
 

@@ -13,7 +13,7 @@ from __future__ import annotations
 import random
 from collections import Counter
 from datetime import date
-from typing import Iterable, Sequence
+from typing import Sequence
 
 from ._models import GrowthReport, ProblemMeta, SubmissionRecord, TagWeakness
 
@@ -74,7 +74,6 @@ def analyze_growth(
     weak_tags.sort(key=lambda item: (-item.severity, item.tag))
 
     # --- Never-solved tags, sorted for stable output -------------------
-    tried_or_solved = set(attempts.keys()) | set(ac_count.keys())
     untouched = sorted(
         (tag for tag in attempts if ac_count[tag] == 0),
         key=lambda t: (-attempts[t], t),
