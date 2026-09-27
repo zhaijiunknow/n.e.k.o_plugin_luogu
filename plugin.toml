@@ -1,4 +1,4 @@
-﻿[plugin]
+[plugin]
 type = "plugin"
 id = "luogu"
 name = "洛谷"
