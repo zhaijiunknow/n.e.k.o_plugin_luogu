@@ -1,11 +1,11 @@
-[plugin]
+﻿[plugin]
 type = "plugin"
 id = "luogu"
 name = "洛谷"
 description = "面向算法竞赛刷题的个性化成长助手：基于洛谷登录用户的提交记录做成长分析（AC/通过率、薄弱与未涉及的算法标签），每天生成针对性题单，并给出点到为止的解题思路提示（不含代码），兼具查题/详情/比赛/用户公开资料等基础查询。成为OIer吧！"
 short_description = "个性化刷题成长：提交分析、成长报告、每日题单、思路提示。"
 keywords = ["洛谷", "luogu", "OJ", "刷题", "题单", "算法竞赛", "OI", "acm", "成长", "每日题单", "思路提示"]
-version = "0.1.0"
+version = "0.2.0"
 entry = "plugin.plugins.luogu:LuoguPlugin"
 
 [plugin.author]
